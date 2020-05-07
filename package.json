@@ -1,0 +1,26 @@
+{
+  "name": "wh-cli",
+  "version": "1.0.0",
+  "description": "wh cli",
+  "main": "index.js",
+  "bin": {
+    "wh": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "linhf",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^4.0.4"
+  }
+}
